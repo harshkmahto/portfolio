@@ -1,0 +1,352 @@
+/* Navbar Styles */
+nav {
+    background: #ffffff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#logo {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.link {
+    display: flex;
+    gap: 30px;
+}
+
+.link a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+    padding: 5px 0;
+}
+
+.link a:hover,
+.link a.active {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 80px 20px;
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header */
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-subtitle {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #666;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.section-header h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.section-header .highlight {
+    border-bottom: 2px solid #000;
+    padding-bottom: 2px;
+}
+
+.section-desc {
+    color: #555;
+    font-size: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Contact Grid */
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+/* Left Side - Contact Cards */
+.contact-info {
+    background: #fafafa;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.contact-card:last-child {
+    border-bottom: none;
+}
+
+.card-icon {
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #000;
+    border: 1px solid #ddd;
+}
+
+.card-details h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+    color: #000;
+}
+
+.card-details a {
+    color: #555;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.card-details a:hover {
+    color: #000;
+}
+
+.response-time {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 2px;
+}
+
+/* Resume Button */
+.resume-download {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.resume-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 35px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    border: 1px solid #000;
+}
+
+.resume-btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.resume-btn i {
+    font-size: 1rem;
+}
+
+.resume-info {
+    font-size: 0.75rem;
+    color: #888;
+    margin-top: 8px;
+}
+
+/* Right Side - Contact Form */
+.quick-contact {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+}
+
+.quick-contact h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    background: #fafafa;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #000;
+    background: #fff;
+}
+
+.send-btn {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.send-btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.send-btn i {
+    font-size: 0.9rem;
+}
+
+/* Social Links */
+.alt-contact {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+}
+
+.alt-text {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-link {
+    width: 38px;
+    height: 38px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid #ddd;
+}
+
+.social-link:hover {
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .link {
+        gap: 20px;
+    }
+    
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .section-header h2 {
+        font-size: 30px;
+    }
+    
+    .contact-info,
+    .quick-contact {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-section {
+        padding: 60px 15px;
+    }
+    
+    .contact-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .card-icon {
+        margin: 0 auto;
+    }
+    
+    .link {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .social-links {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
