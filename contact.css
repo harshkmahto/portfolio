@@ -30,7 +30,7 @@ nav {
     gap: 30px;
 }
 
-.link a {
+.link a, .nav-container a {
     color: #333;
     text-decoration: none;
     font-weight: 500;
@@ -241,7 +241,7 @@ nav {
     border-radius: 30px;
     font-weight: 500;
     font-size: 0.95rem;
-    cursor: pointer;
+    cursor: not-allowed;
     transition: all 0.3s ease;
     display: flex;
     align-items: center;
@@ -257,6 +257,10 @@ nav {
 
 .send-btn i {
     font-size: 0.9rem;
+}
+#temp-para{
+    text-align: center;
+    color: red;
 }
 
 /* Social Links */
