@@ -368,6 +368,7 @@ nav a{
     }
     .about-me{
         margin-top: 20px;
+        max-width: 600px;
     }
     .about-border{
           width: 50px;
